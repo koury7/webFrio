@@ -1,0 +1,436 @@
+/*=========================================================*/
+/*--Estilos generales--*/
+/*=========================================================*/
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+
+body{
+	background:#fff url("../img/bg3.png");		
+}
+
+header,nav,section,footer{
+	display: block;
+}
+
+a,h1,h2,h3;h4,h5{
+	color:#08C;
+	text-align: center;	
+	-webkit-webkit: all .3s;
+	-moz-webkit: all .3s;
+	-ms-webkit: all .3s;
+	-o-webkit: all .3s;
+	webkit: all .3s;
+}
+
+a:hover{
+	
+}
+ 	
+
+img{
+	vertical-align: middle;
+}
+
+
+/*=========================================================*/
+/*--Header--*/
+/*=========================================================*/
+
+/*-- TITULOS --*/
+.titulos{
+	padding:20px 15px 40px;
+}
+
+.titulos .titulo{
+	margin:0;
+	padding:.32px 0;
+	font-size:2em;
+	text-transform:uppercase;
+	color:#0092B2;
+}
+.titulos .subtitulo{
+	margin:0;	
+	color:#7d8781;
+}
+
+#cabecera .container{
+	width: 100%;
+	padding: 0 10px ;
+}
+
+/*=========================================================*/
+/*--Navbar--*/
+/*=========================================================*/
+
+#navbar{
+	background: #024959;	
+}
+
+#navbar a{
+	color:white;
+	
+}
+#menu{
+
+	list-style: none;
+	position: relative;
+}
+
+
+#navbar ul li a{
+	
+	padding:0 15px;
+	display:block;
+	line-height:84px;
+}
+
+#navbar #mynavbar ul li:hover a,#navbar #mynavbar  ul li:active a{ 
+    color: #fff;		
+	box-shadow: 0 -84px 0 #2fb677 inset;
+}
+
+img .logo{	
+	width: 260px;
+				
+	padding:5px 10px;
+	float: left;
+}
+
+
+/*=========================================================*/
+/*--Body--*/
+/*=========================================================*/
+
+/*----*/
+#contenido{
+	width: 80%;	
+	text-align: center;
+	margin: 0 auto;
+	box-shadow: 0 -84px 0 #2fb677 inset;	
+}
+
+
+/*=========================================================*/
+/*--footer--*/
+/*=========================================================*/
+
+footer{
+	padding: 15px;		
+	background: #505961;
+	color: white;
+}
+
+#footer p{
+	margin: 0 ;
+}
+
+#footer a{
+	color:  #0092B2;
+	
+}
+
+#footer a:hover{
+	color: green;
+}
+
+/*=========================================================*/
+
+/*=========================================================*/
+
+
+
+
+
+
+
+/*
+
+
+.clear{
+	clear: both;
+
+}
+
+.clear:before,.clear:after,.container:before,.container:after{
+	display:table;
+	content: "";
+}
+.clear:after,.container:after{
+	clear: both;
+}
+
+
+#contenido{
+	width: 100%;
+	max-width:100%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: justify;
+
+}
+
+#contenido{
+	max-width: 100%;	
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+a,h1,h2,h4,h5{
+	
+	text-align: center;
+	color:#024959;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+a:link,a:visited{
+	
+
+}
+
+a:hover,a:active{
+	
+}
+*/
+ 	
+
+
+/*-- TITULOS --
+.titulos{
+	padding:20px 15px 40px;
+}
+
+.titulos .titulo{
+	margin:0;
+	padding:.32px 0;
+	font-size:2em;
+	text-transform:uppercase;
+	color:#0092B2;
+}
+.titulos .subtitulo{
+	margin:0;
+	padding:0;
+	color:#7d8781;
+}
+*/
+
+/*-- Navbar 
+.logo{width: 100%;
+	height: auto;
+	width: 30%;
+	margin: 2% 0;
+}
+.titulo.principal{
+	width: 70%;
+}
+--
+#logo{			
+	width:auto;
+	padding:5px 10px;
+}
+
+*/
+
+/*
+#
+
+*/
+
+
+/*-- Boton ir arriba --*/
+
+.ir-arriba{
+	display: none;
+	padding: 16px ;
+	background: #024959;
+	font-size: 1em;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 16px;
+	right:16px;
+	border:2px solid white;
+}
+
+/*--Redes Sociales--
+
+.social{
+	background: orange;
+	position: fixed;
+
+}
+
+img{
+	vertical-align: middle;
+}
+/*-- Slider --
+.adaptar,#slider{
+	width: 100%;
+
+}
+
+
+.slider{
+	width: 100%;
+	padding:16px 0;
+	
+}
+*/
+
+/*-- Nosotros 
+
+.servicios{
+	width: 100%;
+}
+--*/
+
+
+/* SERVICIOS */
+.servicios{
+	width: 80%;
+	padding:30px 0;
+}
+
+.servicios .item .icon{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:1px solid #0092B2;	
+}
+
+.servicios .item .icon span{
+	line-height:100px;	
+	color:#0092B2;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s
+}
+
+.servicios .item header h3{	
+	padding:10px 0 5px;
+}
+
+
+.servicios .item:hover .icon span,.servicios .item:hover header h3 a{
+	color: green;
+}
+
+
+
+/* POSTS
+
+.nosotros,.posts-wrap{
+	
+	padding:30px 0;
+	background:#fafafa url("../img/bg3.png");
+	max-width: 100%;
+	box-shadow:0 1px 3px rgba(0,0,0,0.08) inset,0 -1px 3px rgba(0,0,0,0.08) inset;
+}
+
+.posts-wrap .post{
+	
+	padding:15px 15px 20px;
+	text-align:center;
+}*/
+/*
+.posts-wrap .post{
+	width:285px;
+	margin:0;
+	padding:15px 15px 20px;
+	float:left;
+	text-align:center;
+}
+
+.posts-wrap .post img{
+	height:174px
+}
+
+.posts-wrap .post figcaption h3{
+	color:#0092B2;
+	margin:0;
+	padding:10px 0 5px;
+}
+
+.posts-wrap .post .date{
+	margin:0
+}
+
+.posts-wrap .post .date .fa{
+	margin-right: 7px;
+}*/
+
+
+/* FOOTER 
+.contactme{
+	width: 100%;
+	padding: 40px 15px;
+	margin: auto;
+}
+.contactme .left{
+	float: left;
+	width: 80%;
+}
+.contactme .right{
+	float: right;
+	width: 20%;
+}
+.contactme .dotted{
+	color: #505961;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.btn{
+	background: #2fb677;
+	padding: .5em 1.1em;
+	border-radius: 4px;
+	color: white !important;
+	box-shadow: 0 -3px 0px rgba(0,0,0,.3) inset;
+}
+.footer{
+	padding: 15px;		
+	text-align: center;
+	background: #505961;
+	color: white;
+}
+
+.footer p{
+	margin: 0;
+}
+
+.footer a{
+	color:  #0092B2;
+	
+}
+
+.footer a:hover{
+	color: green;
+}
+*/
+
+/*Media querys diseño resposivo*/
+@media screen and (max-width: 959px){
+
+	
+
+}
+
+@media screen and (max-width: 640px){
+
+
+
+}
+
+@media screen and (max-width: 360px){
+	
+	
+ 
+	
+}
+
